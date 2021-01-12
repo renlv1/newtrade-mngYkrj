@@ -1,0 +1,202 @@
+.search-box{
+  margin: 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  .mar{
+    margin-left: 20px;
+  }
+  .dropdown-wrap {
+    min-width: 150px !important;
+    width: auto !important;
+    height: 34px !important;
+    line-height: 34px !important;
+  }
+  .dropdown-menu {
+    max-height: 300px;
+    overflow: auto;
+  }
+  .dropdown-input{
+    min-width: 130px;
+    padding: 0 10px;
+    height: 34px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    cursor: pointer;
+    .el-dropdown{
+      width: 100%;
+      /deep/ .el-dropdown-link{
+        width: 100%;
+        height: 34px;
+        line-height: 34px;
+        display: block;
+      }
+    }
+  }
+  .search-l{
+    display: flex;
+    align-items: center;
+    .label{
+      white-space: nowrap;
+    }
+    .input-wrap{
+      position: relative;
+      width: 140px;
+      input{
+        width: 140px;
+        height: 25px;
+        border-radius: 4px;
+      }
+    }
+    .labelCom{
+      margin-left: 30px;
+    }
+  }
+  .search-r{
+    display: flex;
+    margin-right: 180px;
+    .btn{
+      cursor: pointer;
+      font-size: 12px;
+      color: #fff;
+      width: 80px;
+      height: 24px;
+      border-radius: 4px;
+      background: #1571cc;
+      line-height: 24px;
+      text-align: center;
+      margin-right: 10px;
+      &:last-child{
+        margin-right: 0;
+      }
+      &.black{
+        border: 1px solid #e5e8ed !important;
+        background: #2176ff;
+      }
+    }
+  }
+}
+.mian-c{
+  margin-top: 40px;
+  padding: 40px 0 0 50px;
+  width: 1000px;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 0 3px #999;
+}
+.record-type{
+  cursor: pointer;
+  user-select:none;
+  width: 140px;
+  height: 25px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  line-height: 25px;
+  font-size: 18px;
+  color: #010101;
+  background: #fff;
+  position: relative;
+  .type-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fixed-type{
+      font-size: 12px;
+      height: 100%;
+      margin-right: 5px;
+      /*padding-left: 20px;*/
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .sel-img{
+      /*top: 50%;*/
+      /*left: 60%;*/
+      /*transform: translate(-50%,-50%);*/
+      /*right: 0;*/
+      /*position: absolute;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all .5s;
+      .arrowDown{
+        display: inline-block;
+        width: 8px;
+        height: 5px;
+        background: url("../../assets/img/pull.png") no-repeat;
+        background-position: center;
+        background-size: cover!important;
+        &.active-Img{
+          transform: rotate(180deg);
+        }
+      }
+    }
+    .selectMenu{
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      display: none;
+      transition: all .3s linear;
+      background: #fff;
+      padding-left: 20px;
+      position: absolute;
+      top: 39px;
+      width: 100%;
+      height: 0;
+      verflow-y: hidden;
+      z-index: 99;
+      box-shadow: 0 2px 2px rgba(153, 153, 153, .2);
+      &.selectMenuActive{
+        display: block;
+        height: auto;
+      }
+      li{
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        color: #999;
+        &:hover{
+          color: #1a1a1a;
+        }
+      }
+    }
+  }
+}
+.com-ul{
+  .com-li{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    span{
+      width: 130px;
+      font-size: 14px;
+      color: #474747;
+    }
+    .input-box{
+      margin-left: 25px;
+      input{
+        width: 240px;
+        height: 30px;
+        border-radius: 4px;
+        border: 1px solid #474747;
+        padding: 0 10px;
+        color: #474747;
+      }
+    }
+  }
+}
+.add-title{
+  font-size: 18px;
+  color: #000;
+}
+.td-content{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.el-date-editor.el-input .el-date-editor .el-input__inner {
+  height: 34px !important;
+  line-height: 34px !important;
+}

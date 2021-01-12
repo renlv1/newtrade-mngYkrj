@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="708" height="470" viewBox="0 0 708 470">
+  <defs>
+    <filter id="常用语言框" x="0" y="0" width="708" height="470" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#常用语言框)">
+    <path id="常用语言框-2" data-name="常用语言框" d="M0,363H46L23,383Zm0,0V-69H690V363Z" transform="translate(9 78)" fill="#fff"/>
+  </g>
+</svg>

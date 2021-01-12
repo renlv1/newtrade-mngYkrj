@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="34" viewBox="0 0 41 34">
+  <defs>
+    <filter id="矩形_1322" x="7" y="0" width="34" height="34" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="打开会话" transform="translate(0 9)">
+    <rect id="矩形_1321" data-name="矩形 1321" width="32" height="16" rx="8" fill="#1962df"/>
+    <g transform="matrix(1, 0, 0, 1, 0, -9)" filter="url(#矩形_1322)">
+      <rect id="矩形_1322-2" data-name="矩形 1322" width="16" height="16" rx="8" transform="translate(16 9)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+{
+  "name": "rewardhunter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-diff": "vue-cli-service build --mode development_build --report",
+    "serve-diff": "vue-cli-service serve --mode production"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cube-ui": "^1.12.42",
+    "element-ui": "^2.4.5",
+    "moment": "^2.25.3",
+    "quill": "^1.3.7",
+    "v-viewer": "^1.5.1",
+    "vue": "^2.6.6",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.1",
+    "vue-ueditor-wrap": "^2.4.1",
+    "vuescroll": "^4.15.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "style-resources-loader": "^1.2.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-cube-ui": "^0.2.5",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-cropper": "^0.4.9",
+    "vue-template-compiler": "^2.5.21",
+    "webpack-post-compile-plugin": "^1.0.0",
+    "webpack-transform-modules-plugin": "^0.4.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "transformModules": {
+    "cube-ui": {
+      "transform": "cube-ui/lib/${member}",
+      "kebabCase": true
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "not ie <= 11",
+    "Android >= 4.0",
+    "iOS >= 8"
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="交易管理" transform="translate(5.616 5.781)">
+    <rect id="矩形_86" data-name="矩形 86" width="30" height="30" transform="translate(-5.616 -5.781)" fill="#fff" opacity="0"/>
+    <path id="路径_10389" data-name="路径 10389" d="M144.174,321.9H130.245a2.084,2.084,0,0,0-2.045,2V333.9a2,2,0,0,0,2.035,2h13.929a2.082,2.082,0,0,0,2.035-2V323.9A2.054,2.054,0,0,0,144.174,321.9Z" transform="translate(-127.816 -316.681)" fill="#1962df"/>
+    <path id="路径_10390" data-name="路径 10390" d="M242.443,95.952H231.557a.562.562,0,0,0-.557.564v.419a.562.562,0,0,0,.557.564h10.887a.562.562,0,0,0,.557-.564v-.419A.561.561,0,0,0,242.443,95.952ZM240.968,93.5h-7.936a.562.562,0,0,0-.557.564v.419a.562.562,0,0,0,.557.564h7.936a.562.562,0,0,0,.556-.564v-.419A.561.561,0,0,0,240.968,93.5Z" transform="translate(-227.616 -94.281)" fill="#1962df"/>
+    <g id="椭圆_254" data-name="椭圆 254" transform="translate(5.384 8.219)" fill="none" stroke="#669bf6" stroke-width="1">
+      <circle cx="4" cy="4" r="4" stroke="none"/>
+      <circle cx="4" cy="4" r="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>
